@@ -10,6 +10,7 @@ alias sug='sudo apt-get upgrade'
 alias g='git'
 alias gst='git status'
 alias gba='git branch -a'
+alias gcl='git clone'
 
 # ssh
 alias eniac='ssh -X qiong@eniac.seas.upenn.edu'
