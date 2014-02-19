@@ -14,7 +14,7 @@ alias gba='git branch -a'
 # ssh
 alias eniac='ssh -X qiong@eniac.seas.upenn.edu'
 alias biglab='ssh -X qiong@biglab.seas.upenn.edu'
-alias mrsl='ssh -X qiong@158.130.10.10'
+alias grasp='ssh -X qiong@158.130.10.10'
 alias rdesk='rdesktop vlab-rdp.seas.upenn.edu'
 
 # bash, vim
