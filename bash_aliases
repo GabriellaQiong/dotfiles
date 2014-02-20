@@ -11,6 +11,9 @@ alias g='git'
 alias gst='git status'
 alias gba='git branch -a'
 alias gcl='git clone'
+alias gad='git add *'
+alias gct='git commit -m'
+alias gpm='git push origin master'
 
 # ssh
 alias eniac='ssh -X qiong@eniac.seas.upenn.edu'
