@@ -22,6 +22,12 @@ alias ultra='ssh -p 2209 qiong@ultravision.seas.upenn.edu'
 alias grasp='ssh -X qiong@158.130.10.10'
 alias rdesk='rdesktop vlab-rdp.seas.upenn.edu'
 
+# scp
+alias ceniac='scp * qiong@eniac.seas.upenn.edu:'
+alias cbiglab='scp * qiong@biglab.seas.upenn.edu:'
+alias cultra='scp -P 2209 qiong@ultravision.seas.upenn.edu:'
+alias cgrasp='scp * qiong@158.130.10.10:'
+
 # bash, vim
 alias sbrc='source ~/.bashrc'
 alias vbrc='vim ~/.bashrc'
@@ -54,14 +60,14 @@ alias sa='fasd -sia'
 alias z='fasd_cd -d'     # cd, same functionality as j in autojump
 alias zz='fasd_cd -d -i' # cd with interactive selection
 
-#cd
+# cd
 alias cd..='cd ..'
 alias cd...='cd ../..'
 alias cd....='cd ../../..'
 alias cd.....='cd ../../../..'
 alias cd......='cd ../../../../..'
 
-#ros
+# ros
 alias rosl='roslaunch'
 alias rost='rostopic'
 alias rosm='rosmsg'
@@ -69,7 +75,7 @@ alias rosr='rosrun'
 alias rosp='rospack'
 alias rosm='rosmake'
 
-#screen
+# screen
 alias ss='screen -S'
 alias sl='screen -ls'
 alias sd='screen -d'
