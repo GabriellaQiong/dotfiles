@@ -68,3 +68,8 @@ alias rosm='rosmsg'
 alias rosr='rosrun'
 alias rosp='rospack'
 alias rosm='rosmake'
+
+#screen
+alias ss='screen -S'
+alias sl='screen -ls'
+alias sd='screen -d'
