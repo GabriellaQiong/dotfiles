@@ -51,9 +51,9 @@ alias a='fasd -a'        # any
 alias s='fasd -si'       # show / search / select
 alias d='fasd -d'        # directory
 alias f='fasd -f'        # file
-alias sid='fasd -sid'     # interactive directory selection
-alias sif='fasd -sif'     # interactive file selection
-alias sia='fasd -sia'
+alias sd='fasd -sid'     # interactive directory selection
+alias sf='fasd -sif'     # interactive file selection
+alias sa='fasd -sia'
 alias z='fasd_cd -d'     # cd, same functionality as j in autojump
 alias zz='fasd_cd -d -i' # cd with interactive selection
 
@@ -75,7 +75,7 @@ alias rosm='rosmake'
 # screen
 alias ss='screen -S'
 alias sl='screen -ls'
-alias sd='screen -d'
+alias sdd='screen -d'
 alias sr='screen -r'
 alias sx='screen -X -S'
 
