@@ -23,10 +23,7 @@ alias grasp='ssh -X qiong@158.130.10.10'
 alias rdesk='rdesktop vlab-rdp.seas.upenn.edu'
 
 # scp
-alias ceniac='scp * qiong@eniac.seas.upenn.edu:'
-alias cbiglab='scp * qiong@biglab.seas.upenn.edu:'
-alias cultra='scp -P 2209 * qiong@ultravision.seas.upenn.edu:'
-alias cgrasp='scp * qiong@158.130.10.10:'
+alias scpu='scp -P 2209'
 
 # bash, vim
 alias sbrc='source ~/.bashrc'
@@ -80,3 +77,6 @@ alias ss='screen -S'
 alias sl='screen -ls'
 alias sd='screen -d'
 alias sr='screen -r'
+
+# clear
+alias clc='clear'

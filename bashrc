@@ -109,13 +109,13 @@ source /opt/ros/fuerte/setup.bash
 # source /home/qiong/catkin_ws/devel/setup.bash
 # source /home/qiong/catkin_ws/install/setup.bash
 
-# eval "$(fasd --init auto)"
-# eval "$(fasd --init posix-alias zsh-hook)"
-
+# add fasd
 fasd_cache="$HOME/.fasd-init-bash"
 if [ "$(command -v fasd)" -nt "$fasd_cache" -o ! -s "$fasd_cache" ]; then
       fasd --init posix-alias bash-hook bash-ccomp bash-ccomp-install >| "$fasd_cache"
 fi
 source "$fasd_cache"
 unset fasd_cache
-  
+
+# add accounts
+u="qiong@ultravision.seas.upenn.edu"
