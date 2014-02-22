@@ -77,6 +77,7 @@ alias ss='screen -S'
 alias sl='screen -ls'
 alias sd='screen -d'
 alias sr='screen -r'
+alias sx='screen -X -S'
 
 # clear
 alias clc='clear'
