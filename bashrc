@@ -118,4 +118,7 @@ source "$fasd_cache"
 unset fasd_cache
 
 # add accounts
+e="qiong@eniac.seas.upenn.edu"
+b="qiong@biglab.seas.upenn.edu"
 u="qiong@ultravision.seas.upenn.edu"
+g="qiong@158.130.10.10"
