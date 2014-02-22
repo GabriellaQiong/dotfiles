@@ -25,7 +25,7 @@ alias rdesk='rdesktop vlab-rdp.seas.upenn.edu'
 # scp
 alias ceniac='scp * qiong@eniac.seas.upenn.edu:'
 alias cbiglab='scp * qiong@biglab.seas.upenn.edu:'
-alias cultra='scp -P 2209 qiong@ultravision.seas.upenn.edu:'
+alias cultra='scp -P 2209 * qiong@ultravision.seas.upenn.edu:'
 alias cgrasp='scp * qiong@158.130.10.10:'
 
 # bash, vim
