@@ -77,7 +77,8 @@ alias ss='screen -S'
 alias sl='screen -ls'
 alias sdd='screen -d'
 alias sr='screen -r'
-alias sx='screen -X -S'
+alias sx='screen -X -S' # quit or kill
 
-# clear
+# clear and kill
 alias clc='clear'
+alias x='xkill'
