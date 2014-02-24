@@ -82,3 +82,7 @@ alias sx='screen -X -S' # quit or kill
 # clear and kill
 alias clc='clear'
 alias x='xkill'
+
+# make
+alias m='make'
+alias mc='make clean'
