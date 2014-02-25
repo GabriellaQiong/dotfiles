@@ -5,7 +5,7 @@ alias df='df -Th'
 alias matlabnd='matlab -nodesktop -nosplash'
 alias sup='sudo apt-get update'
 alias sug='sudo apt-get upgrade'
-alias sin='sudo apt-get intall'
+alias sin='sudo apt-get install'
 
 # git
 alias g='git'
