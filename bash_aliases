@@ -84,6 +84,7 @@ alias sx='screen -X -S' # quit or kill
 # clear and kill
 alias clc='clear'
 alias x='xkill'
+alias killm='killall -s 9 matlab_helper'
 
 # make
 alias m='make'
