@@ -6,6 +6,7 @@ alias matlabnd='matlab -nodesktop -nosplash'
 alias sup='sudo apt-get update'
 alias sug='sudo apt-get upgrade'
 alias sin='sudo apt-get install'
+alias scs='sudo apt-cache search'
 
 # git
 alias g='git'
