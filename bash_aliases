@@ -16,6 +16,7 @@ alias gcl='git clone'
 alias gad='git add *'
 alias gct='git commit -m'
 alias gpm='git push origin master'
+alias gpl='git pull'
 
 # ssh
 alias eniac='ssh -X qiong@eniac.seas.upenn.edu'
