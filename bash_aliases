@@ -8,6 +8,9 @@ alias sug='sudo apt-get upgrade'
 alias sin='sudo apt-get install'
 alias scs='sudo apt-cache search'
 
+# bash
+alias b='sudo bash'
+
 # git
 alias g='git'
 alias gst='git status'
