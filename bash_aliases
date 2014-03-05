@@ -11,6 +11,7 @@ alias scs='sudo apt-cache search'
 # bash
 alias b='sudo bash'
 alias ex='sudo chmod +x'
+
 # git
 alias g='git'
 alias gst='git status'
@@ -20,6 +21,7 @@ alias gad='git add *'
 alias gct='git commit -m'
 alias gpm='git push origin master'
 alias gpl='git pull'
+alias gam='git commit --amend -CHEAD'
 
 # ssh
 alias eniac='ssh -X qiong@eniac.seas.upenn.edu'
@@ -93,3 +95,6 @@ alias killm='killall -s 9 matlab_helper'
 # make
 alias m='make'
 alias mc='make clean'
+
+# ls
+alias lv='ls video*'
