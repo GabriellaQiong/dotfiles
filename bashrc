@@ -117,6 +117,30 @@ fi
 source "$fasd_cache"
 unset fasd_cache
 
+# ADD shopt turn on and off
+# Autocorrect fudged paths in cd calls
+shopt -s cdspell
+# Update the hash table properly
+shopt -s checkhash
+# Update columns and rows if window size changes
+shopt -s checkwinsize
+# Put multi-line commands onto one line of history
+shopt -s cmdhist
+# Include dotfiles in pattern matching
+shopt -s dotglob
+# Enable advanced pattern matching
+shopt -s extglob
+# Append rather than overwrite Bash history
+shopt -s histappend
+# Don't use Bash's builtin host completion
+shopt -u hostcomplete
+# Ignore me if I try to complete an empty line
+shopt -s no_empty_cmd_completion
+# Use programmable completion, if available
+shopt -s progcomp
+# Warn me if I try to shift when there's nothing there
+shopt -s shift_verbose
+
 # add accounts
 e="qiong@eniac.seas.upenn.edu"
 b="qiong@biglab.seas.upenn.edu"
