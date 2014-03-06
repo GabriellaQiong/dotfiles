@@ -101,4 +101,4 @@ alias m='make'
 alias mc='make clean'
 
 # ls
-alias lv='ls video*'
+alias lv='ls /dev/video*'
