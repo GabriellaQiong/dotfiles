@@ -104,45 +104,8 @@ fi
 if [ -f /etc/bash_completion ] && ! shopt -oq posix; then
     . /etc/bash_completion
 fi
-#source /opt/ros/groovy/setup.bash
-source /opt/ros/fuerte/setup.bash
-# source /home/qiong/catkin_ws/devel/setup.bash
-# source /home/qiong/catkin_ws/install/setup.bash
 
-# add fasd
-fasd_cache="$HOME/.fasd-init-bash"
-if [ "$(command -v fasd)" -nt "$fasd_cache" -o ! -s "$fasd_cache" ]; then
-      fasd --init posix-alias bash-hook bash-ccomp bash-ccomp-install >| "$fasd_cache"
+# Source private local bashrc
+if [ -f ~/.bash_local ]; then
+    . ~/.bash_local
 fi
-source "$fasd_cache"
-unset fasd_cache
-
-# ADD shopt turn on and off
-# Autocorrect fudged paths in cd calls
-shopt -s cdspell
-# Update the hash table properly
-shopt -s checkhash
-# Update columns and rows if window size changes
-shopt -s checkwinsize
-# Put multi-line commands onto one line of history
-shopt -s cmdhist
-# Include dotfiles in pattern matching
-shopt -s dotglob
-# Enable advanced pattern matching
-shopt -s extglob
-# Append rather than overwrite Bash history
-shopt -s histappend
-# Don't use Bash's builtin host completion
-shopt -u hostcomplete
-# Ignore me if I try to complete an empty line
-shopt -s no_empty_cmd_completion
-# Use programmable completion, if available
-shopt -s progcomp
-# Warn me if I try to shift when there's nothing there
-shopt -s shift_verbose
-
-# add accounts
-e="qiong@eniac.seas.upenn.edu"
-b="qiong@biglab.seas.upenn.edu"
-u="qiong@ultravision.seas.upenn.edu"
-g="qiong@158.130.10.10"
