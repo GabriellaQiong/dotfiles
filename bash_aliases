@@ -49,6 +49,7 @@ alias vtmc='vim ~/.tmux.conf'
 alias vbdl='vim ~/.bundles'
 alias vgcf='vim ~/.gitconfig'
 alias vgin='vim ~/.gitignore'
+alias vtml='vim ~/.tmuxline'
 alias cbrc='cp ~/.bashrc ~/dotfiles/bashrc'
 alias cbal='cp ~/.bash_aliases ~/dotfiles/bash_aliases'
 alias cbfn='cp ~/.bash_functions ~/dotfiles/bash_functions'
@@ -57,6 +58,7 @@ alias circ='cp ~/.inputrc ~/dotfiles/inputrc'
 alias cblc='cp ~/.bash_local ~/dotfiles/bash_local'
 alias ctmc='cp ~/.tmux.conf ~/dotfiles/tmux.conf'
 alias cbdl='cp ~/.bundles ~/dotfiles/bundles'
+alias ctml='cp ~/.tmuxline ~/dotfiles/tmuxline'
 
 # fasd
 alias a='fasd -a'        # any
