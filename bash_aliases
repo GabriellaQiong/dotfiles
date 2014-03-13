@@ -2,7 +2,7 @@
 alias pg='ping www.google.com'
 alias ev='evince'
 alias df='df -Th'
-alias matlabnd='matlab -nodesktop -nosplash'
+alias matlabnd='matlab -nodesktop -nosplash -n'
 alias sup='sudo apt-get update'
 alias sug='sudo apt-get upgrade'
 alias sin='sudo apt-get install'
@@ -96,7 +96,7 @@ alias sx='screen -X -S' # quit or kill
 # clear and kill
 alias clc='clear'
 alias x='xkill'
-alias killm='killall -s 9 matlab_helper'
+alias killm='killall -s 9 MATLAB'
 
 # make
 alias m='make'
