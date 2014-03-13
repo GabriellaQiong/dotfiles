@@ -97,6 +97,7 @@ alias sx='screen -X -S' # quit or kill
 alias clc='clear'
 alias x='xkill'
 alias killm='killall -s 9 MATLAB'
+alias clh='rm -rf ~/matlab_crash*'
 
 # make
 alias m='make'
