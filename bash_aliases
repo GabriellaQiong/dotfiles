@@ -77,6 +77,10 @@ alias cd...='cd ../..'
 alias cd....='cd ../../..'
 alias cd.....='cd ../../../..'
 alias cd......='cd ../../../../..'
+alias cd ...='cd ../..'
+alias cd ....='cd ../../..'
+alias cd .....='cd ../../../..'
+alias cd ......='cd ../../../../..'
 
 # ros
 alias rosl='roslaunch'
