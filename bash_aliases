@@ -85,7 +85,6 @@ alias cd ......='cd ../../../../..'
 # ros
 alias rosl='roslaunch'
 alias rost='rostopic'
-alias rosm='rosmsg'
 alias rosr='rosrun'
 alias rosp='rospack'
 alias rosm='rosmake'
@@ -109,3 +108,6 @@ alias mc='make clean'
 
 # ls
 alias lv='ls /dev/video*'
+
+# extract
+alias tt='tar -xvf'
