@@ -2,7 +2,6 @@
 alias pg='ping www.google.com'
 alias ev='evince'
 alias df='df -Th'
-alias matlabnd='matlab -nodesktop -nosplash -n'
 alias sup='sudo apt-get update'
 alias sug='sudo apt-get upgrade'
 alias sin='sudo apt-get install'
@@ -111,3 +110,8 @@ alias lv='ls /dev/video*'
 
 # extract
 alias tt='tar -xvf'
+
+# matlab
+alias matlabnd='matlab -nodesktop -nosplash'
+alias matlabnd13='matlab13 -nodesktop -nosplash'
+
