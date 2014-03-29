@@ -9,7 +9,7 @@ alias scs='sudo apt-cache search'
 
 # bash
 alias b='sudo bash'
-alias ex='sudo chmod +x'
+# alias ex='sudo chmod +x'
 
 # git
 alias g='git'
