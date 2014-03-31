@@ -115,3 +115,5 @@ alias tt='tar -xvf'
 alias matlabnd='matlab -nodesktop -nosplash'
 alias matlabnd13='matlab13 -nodesktop -nosplash'
 
+# m2
+alias smf='sudo make flash'
