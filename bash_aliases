@@ -25,6 +25,7 @@ alias grt='git reset'
 alias grg='git reflog'
 alias gsh='git stash'
 alias gft='git filter-branch -f --prune-empty --index-filter'
+alias grm='git rm'
 
 # ssh
 alias eniac='ssh -X qiong@eniac.seas.upenn.edu'
