@@ -58,7 +58,6 @@ alias cvrc='cp ~/.vimrc ~/dotfiles/vimrc'
 alias circ='cp ~/.inputrc ~/dotfiles/inputrc'
 alias cblc='cp ~/.bash_local ~/dotfiles/bash_local'
 alias ctmc='cp ~/.tmux.conf ~/dotfiles/tmux.conf'
-alias cbdl='cp ~/.bundles ~/dotfiles/bundles'
 alias ctml='cp ~/.tmuxline ~/dotfiles/tmuxline'
 
 # fasd
@@ -78,10 +77,6 @@ alias cd...='cd ../..'
 alias cd....='cd ../../..'
 alias cd.....='cd ../../../..'
 alias cd......='cd ../../../../..'
-alias cd ...='cd ../..'
-alias cd ....='cd ../../..'
-alias cd .....='cd ../../../..'
-alias cd ......='cd ../../../../..'
 
 # ros
 alias rosl='roslaunch'

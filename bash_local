@@ -1,10 +1,11 @@
 # ROS path
-#source /opt/ros/groovy/setup.bash
-source /opt/ros/fuerte/setup.bash
-# source /home/qiong/catkin_ws/devel/setup.bash
-# source /home/qiong/catkin_ws/install/setup.bash
+source /opt/ros/groovy/setup.bash
+#source /opt/ros/fuerte/setup.bash
+source /home/qiong/catkin_ws/devel/setup.bash
+source /home/qiong/catkin_ws/install/setup.bash
 
 # ADD fasd
+
 fasd_cache="$HOME/.fasd-init-bash"
 if [ "$(command -v fasd)" -nt "$fasd_cache" -o ! -s "$fasd_cache" ]; then
       fasd --init posix-alias bash-hook bash-ccomp bash-ccomp-install >| "$fasd_cache"
