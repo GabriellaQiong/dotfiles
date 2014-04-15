@@ -10,7 +10,7 @@ alias srm='sudo apt-get remove'
 
 # bash
 alias b='sudo bash'
-# alias ex='sudo chmod +x'
+alias ex='sudo chmod +x'
 
 # git
 alias g='git'
