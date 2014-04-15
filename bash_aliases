@@ -6,7 +6,7 @@ alias sup='sudo apt-get update'
 alias sug='sudo apt-get upgrade'
 alias sin='sudo apt-get install'
 alias scs='sudo apt-cache search'
-alias srm='sudo apt-get rm'
+alias srm='sudo apt-get remove'
 
 # bash
 alias b='sudo bash'
