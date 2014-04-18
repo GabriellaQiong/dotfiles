@@ -101,6 +101,7 @@ alias clh='rm -rf ~/matlab_crash*'
 # make
 alias m='make'
 alias mc='make clean'
+alias mi='sudo make install'
 
 # ls
 alias lv='ls /dev/video*'
@@ -114,3 +115,6 @@ alias matlabnd13='matlab13 -nodesktop -nosplash'
 
 # m2
 alias smf='sudo make flash'
+
+# usb hard drive
+alias sml='sudo mlabel -i' 
