@@ -1,7 +1,10 @@
 # programs
+alias n='nautilus'
 alias pg='ping www.google.com'
 alias ev='evince'
 alias df='df -Th'
+
+# apt
 alias sup='sudo apt-get update'
 alias sug='sudo apt-get upgrade'
 alias sin='sudo apt-get install'
