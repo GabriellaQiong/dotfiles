@@ -47,32 +47,31 @@ alias vbrc='vim ~/.bashrc'
 alias vbal='vim ~/.bash_aliases'
 alias vbfn='vim ~/.bash_functions'
 alias vvrc='vim ~/.vimrc'
-alias virc='vim ~/.inputrc'
 alias vblc='vim ~/.bash_local'
 alias vtmc='vim ~/.tmux.conf'
-alias vbdl='vim ~/.bundles'
-alias vgcf='vim ~/.gitconfig'
-alias vgin='vim ~/.gitignore'
 alias vtml='vim ~/.tmuxline'
 alias cbrc='cp ~/.bashrc ~/dotfiles/bashrc'
 alias cbal='cp ~/.bash_aliases ~/dotfiles/bash_aliases'
 alias cbfn='cp ~/.bash_functions ~/dotfiles/bash_functions'
 alias cvrc='cp ~/.vimrc ~/dotfiles/vimrc'
-alias circ='cp ~/.inputrc ~/dotfiles/inputrc'
 alias cblc='cp ~/.bash_local ~/dotfiles/bash_local'
 alias ctmc='cp ~/.tmux.conf ~/dotfiles/tmux.conf'
 alias ctml='cp ~/.tmuxline ~/dotfiles/tmuxline'
 
 # fasd
-alias a='fasd -a'        # any
-alias s='fasd -si'       # show / search / select
-alias d='fasd -d'        # directory
-alias f='fasd -f'        # file
-alias sd='fasd -sid'     # interactive directory selection
-alias sf='fasd -sif'     # interactive file selection
-alias sa='fasd -sia'
-alias z='fasd_cd -d'     # cd, same functionality as j in autojump
-alias zz='fasd_cd -d -i' # cd with interactive selection
+alias a='fasd -a'         # any
+alias s='fasd -si'        # show / search / select
+alias d='fasd -d'         # directory
+alias f='fasd -f'         # file
+alias sd='fasd -sid'      # interactive directory selection
+alias sf='fasd -sif'      # interactive file selection
+alias z='fasd_cd -d'      # cd, same functionality as j in autojump
+alias zz='fasd_cd -d -i'  # cd with interactive selection
+alias v='f -e vim'        # open with vim
+alias vv='sf -e vim'      # open with vim interactively
+alias o='a -e xdg-open'   # open with xdg-open
+alias oo='sa -e xdg-open' # open with xdg-open interactively
+alias p='f -e evince'     # open pdf
 
 # cd
 alias cd..='cd ..'
